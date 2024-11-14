@@ -11,7 +11,7 @@
 <body>  
     <div class="background1">   
     <div id="Logins" class="modal">
-        <form action="index.html" class="modal-content animate" method="post">
+        <form class="modal-content" action="kelas.html" onsubmit="showAlert()" method="post">
             <div class="profile">
                 <img src="Images/Logo_SMKN_1_Denpasar_2023-removebg-preview.png" alt="Profile picture" id="pfp">
                 <div class="profile-text">
@@ -30,7 +30,7 @@
                     <input type="checkbox" checked="checked" name="remember">Remember me
                 </label>
                 <span class="psw">Forgot <a href="">Password?</a></span>
-                <button type="submit" id="Login1">Login</button>
+                <button type="submit" id="Login1" onsubmit="ilham()">Login</button>
             </div>
             <div class="inputb">
                 <p>don't have an account? <a href="Register.html">Register!</a></p>
@@ -41,6 +41,7 @@
     </div>
     </div>
 
+    <script class="Login.js"></script>
     <script src="Programs/Login.js"></script>
 </body>
 </html>
