@@ -21,6 +21,9 @@ input[type=text], input[type=password],input[type=email]{
     width: 100%;
     margin: 0 auto;
 }
+.aaaa{
+    justify-content: center;
+}
 
 .checkbox-container {
     display: flex;               /* Use Flexbox for alignment */
@@ -126,7 +129,7 @@ button:hover{
     border-radius: 50%; /* Optional: make the image round */
 }
 
-#Login1{
+.login{
     background-color: rgb(0, 55, 128);
     color: white;
     border: none;
