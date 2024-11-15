@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/Rpl P5"
+		},
+		{
+			"path": "../../Documents/Testing"
+		},
+		{
+			"path": "../../Documents/entah"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Rpl P5"
+	}
+}
